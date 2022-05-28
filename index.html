@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Montserrat:wght@400;500&family=Poppins&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <meta name="description" content="A dummy website which delivers ice-creams to your doorstep!!">
+  <meta name="author" content="Srikar KSV">
+  <meta name="keywords" content="ice-cream, dummy, html, css, javascript">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kem Nhà Làm</title>
+  <link rel="shortcut icon" href="./img/ice-pop-favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div id="hero">
+    <header>
+      <h1 id="logo"><a href="#" class="logo__link"> Kem Nhà Làm </a></h1>
+      <nav>
+        <ul class="nav">
+          <div class="nav__links">
+            <a href="#main-container" class="nav__item ">
+              <li class="nav__item--underline">Cửa Hàng</li>
+            </a>
+            <a href="#contact" class="nav__item">
+              <li>Liên Hệ</li>
+            </a>
+            
+            <a href="login.html" class="nav__item">
+              <li>Đăng Nhập</li>
+            </a>
+          </div>
+          <button href="#" class="nav__item nav__item--cart">
+            <li><i class="fas fa-shopping-cart"></i></li>
+          </button>
+          <div class="burger nav__item">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero-text">
+      <h2 class="hero-text__heading">Kem Nhà Làm</h2><br>
+      <p class="hero-text__tagline">Đặt hàng và chúng tôi sẽ có mặt trước cửa nhà bạn!!</p>
+    </section>
+  </div>
+  <main id="main-container">
+    <div class="limited-time-wrapper animate-top">
+      <section id="limited-time">
+        <p class="limited-time__side-banner">Thời gian có hạn</p>
+        <div class="limited-time_content-wraper">
+          <p class="limited-time__text"><span class="limited-time__text--attention">Thêm vào giỏ hàng của bạn</span> trước khi hết thời gian!!
+          </p>
+          <p class="limited-time__time">59:00</p>
+        </div>
+        <div class="limted-time__img-container">
+          <img src="./img/limited-time.png" alt="" id="limited-time__img">
+        </div>
+      </section>
+    </div>
+    <section class="special-flavours animate-left">
+      <h3 class="special-flavours__heading">Hương vị đặc biệt</h3>
+      <div class="special-flavours__products-grid">
+        <div class="special-flavours__products">
+          <img src="./img/choco_vanilla.webp" alt="Choco vanilla">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Choco vanilla</h4>
+            <p class="special-flavours__product-price"><span class="special-flavours__product--oldprice">220.000 đ</span>
+              180.000 đ</p>
+            <button class="add-to-cart cartBtn" data-title="Choco vanilla" data-price="180.000"
+              data-img="./img/choco_vanilla.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/double-chocolate.webp" alt="Chocolaty mix">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Chocolate mix</h4>
+            <p class="special-flavours__product-price"><span class="special-flavours__product--oldprice">220.000 đ</span>
+              180.000 đ</p>
+            <button class="add-to-cart cartBtn" data-title="Chocolaty mix" data-price="180.000"
+              data-img="./img/double-chocolate.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/butterscotch.webp" alt="Butterscotch">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Butterscotch</h4>
+            <p class="special-flavours__product-price"><span class="special-flavours__product--oldprice">220.000 đ</span> 180.000 đ</p>
+            <button class="add-to-cart cartBtn" data-title="Butterscotch" data-price="180.000"
+              data-img="./img/butterscotch.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="featured-products-wrapper">
+      <div class="featured-products animate-right">
+        <img src="./img/feast-chocolate.webp" alt="Nutty Chocolate mix">
+        <h4>Feast Chocolate</h4>
+        <p>Ai mà không thích sự bất ngờ!Cắn lớp phủ sô cô la giòn bên trong là những viên sô cô la mềm mịn và kết thúc với phần nhân sô cô la đặc.
+          <br>
+        </p>
+        <button class="add-to-cart-featured cartBtn" data-title="Nutty Chocolate mix" data-price="450.000"
+          data-img="./img/feast-chocolate.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+      </div>
+      <div class="featured-products animate-left">
+        <img src="./img/unicornetto.webp" alt="Unicornetto">
+        <h4>Uni Cornetto</h4>
+        <p>Một chút hư ảo! Món tráng miệng quả mọng kèm với sô cô la trắng đậm đà và sự kỳ diệu của praline trong hình nón màu tím mới!
+          <br>
+        </p>
+        <button class="add-to-cart-featured cartBtn" data-title="Unicornetto" data-price="340.000"
+          data-img="./img/unicornetto.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+      </div>
+      <div class="featured-products animate-right">
+        <img src="./img/corenetto-disc.webp" alt="Cornetti disc">
+        <h4>Cornetto Disc Oreo</h4>
+        <p>Đó là một sự pha trộn được tạo ra từ thiên đường! Oreo nghiền trong Vanilla kem bọc trong hình nón sô cô la đầu tiên của chúng tôi, lớp trên cùng là socola thơm ngon!
+          <br>
+        </p>
+        <button class="add-to-cart-featured cartBtn" data-title="Cornetti disc" data-price="340.000"
+          data-img="./img/corenetto-disc.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+      </div>
+    </section>
+    <section class="special-flavours animate-left">
+      <h3 class="special-flavours__heading">Hương vị yêu thích!</h3>
+      <div class="special-flavours__products-grid special-flavours__yummy-sticks">
+        <div class="special-flavours__products">
+          <img src="./img/shahi-kulfi.webp" alt="Shahi kulfi" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Shahi kulfi</h4>
+            <p class="special-flavours__product-price"><span>340.000 đ</span> 290.000 đ</p>
+            <button class="add-to-cart cartBtn" data-title="Shahi kulfi" data-price="290.000"
+              data-img="./img/shahi-kulfi.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/chocobar.webp" alt="Chocobar" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Chocobar</h4>
+            <p class="special-flavours__product-price"><span>500.000đ</span> 350.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Chocobar" data-price="350.000" data-img="./img/chocobar.webp"
+              data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/fruit_n_nut_feast.webp" alt="Feast Fruit & Nut" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Fruit & Nut</h4>
+            <p class="special-flavours__product-price"><span>240.000đ</span> 199.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Fruit & Nut" data-price="199.000"
+              data-img="./img/fruit_n_nut_feast.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/cloud-bite.webp" alt="Cloud Bite" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Cloud Bite</h4>
+            <p class="special-flavours__product-price"><span>240.000đ</span> 199.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Cloud Bite" data-price="199.000"
+              data-img="./img/cloud-bite.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/cola-blast.webp" alt="Cola Blast" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Cola Blast</h4>
+            <p class="special-flavours__product-price"><span>619.000đ</span> 499.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Cola Blast" data-price="199.000"
+              data-img="./img/cola-blast.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/lemon_blast.webp" alt="Lemon Blast" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Lemon Blast</h4>
+            <p class="special-flavours__product-price"><span>319.000đ</span> 199.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Lemon Blast" data-price="199.000"
+              data-img="./img/lemon_blast.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/orange_mahabar.webp" alt="Orange Masti" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Orange Masti</h4>
+            <p class="special-flavours__product-price"><span>319.000đ</span> 199.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Orange Masti" data-price="199.000"
+              data-img="./img/orange_mahabar.webp" data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+        <div class="special-flavours__products">
+          <img src="./img/mango_zap.webp" alt="Mango Zap" loading="lazy">
+          <div class="special-flavour__content-details">
+            <h4 class="special-flavours__product-name">Mango Zap</h4>
+            <p class="special-flavours__product-price"><span>319.000đ</span> 199.000đ</p>
+            <button class="add-to-cart cartBtn" data-title="Mango Zap" data-price="199.000" data-img="./img/mango_zap.webp"
+              data-quantity=1>Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why-us animate-bottom">
+      <h3 class="special-flavours__heading why-us__heading">Nên chọn chúng tôi?</h3>
+      <div class="why-us__reasons-wrapper">
+        <div class="why-us__reasons">
+          <img src="./img/pickup.svg" alt="" loading="lazy">
+          <p>Vận chuyển nhanh</p>
+        </div>
+        <div class="why-us__reasons">
+          <img src="./img/box.svg" alt="" loading="lazy">
+          <p>Bao bì chuyên nghiệp</p>
+        </div>
+        <div class="why-us__reasons">
+          <img src="./img/timer.svg" alt="" loading="lazy">
+          <p>Đúng Giờ</p>
+        </div>
+      </div>
+    </section>
+    <section class="checkout-cart-wrapper">
+      <div class="checkout-cart">
+        <button class="close-cart"><i class="fas fa-times"></i></button>
+        <h6 class="special-flavours__heading">Thanh Toán Giỏ Hàng</h6>
+        <div class="cart-products-wrapper">
+
+        </div>
+        <div class="buy-wrapper">
+          <p class="cost-wrapper">Tổng: <span id="total-cost">0</span>đ</p><button class="buy-button" ondblclick="alert('Đơn hàng của bạn đã được thanh toán!')"  >Mua</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="company-info">
+      <h5>Bia Nhà Làm</h5>
+      <p class="address">484 Trần Đại Nghĩa, Hòa Hải,<br>
+        Ngũ Hành Sơn, Đà Nẵng<br>
+        Việt Nam</p>
+       
+      
+    </div>
+    <div class="contact" id="contact">
+      <h5>Liên Hệ</h5>
+      <div class="contact-links">
+        <a href="https://twitter.com/TRNNGCP30319264" title="Twitter" target="_blank"><i class="fab fa-twitter icon"></i></a>
+        <a href="https://github.com/phngtn03061109" title="Github" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a href="https://codepen.io" title="Codepen" target="_blank"><i class="fab fa-codepen"></i></a>
+        <a href="https://www.instagram.com/pnuh__/" title="Instagram" target="_blank"><i
+            class="fab fa-instagram icon"></i></a>
+      </div>
+    </div>
+    
+    <!-- Phone ring -->
+    <div class="hotline-phone-ring-wrap">
+      <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a href="tel:0337646872" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+      </div>
+
+      <div class="hotline-bar-phone">
+        <a href="tel:0337646872">
+          <span class="text-hotline">0337646872</span>
+        </a>
+      </div>
+    </div>
+    <!-- Zaloo ring -->
+    <div class="hotline-zalo-ring-wrap">
+      <div class="hotline-zalo-ring">
+        <div class="hotline-zalo-ring-circle"></div>
+        <div class="hotline-zalo-ring-circle-fill"></div>
+        <div class="hotline-zalo-ring-img-circle">
+        <a href="http://zalo.me/0337646872" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+      </div>
+      <div class="hotline-bar-zalo">
+        <a href="http://zalo.me/0337646872">
+          <span class="text-hotline">Zalo</span>
+        </a>
+      </div>
+    </div>
+    <div class="hotline-facebook-ring-wrap">
+      <div class="hotline-facebook-ring">
+        <div class="hotline-facebook-ring-circle"></div>
+        <div class="hotline-facebook-ring-circle-fill"></div>
+        <div class="hotline-facebook-ring-img-circle">
+        <a href="http://m.me/yeIamok" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Liên hệ Messenger" width="50">
+        </a>
+        </div>
+      </div>
+
+      <div class="hotline-bar-facebook">
+        <a href="http://m.me/yeIamok">
+          <span class="text-hotline">Facebook</span>
+        </a>
+
+      </div>
+    </div><br>
+  </footer>
+  
+
+  <script src="./js/index.js"></script>
+  <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</body>
+
+</html>
