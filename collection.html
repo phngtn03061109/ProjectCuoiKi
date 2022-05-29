@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Montserrat:wght@400;500&family=Poppins&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <meta name="description" content="A dummy website which delivers ice-creams to your doorstep!!">
+  <meta name="author" content="Srikar KSV">
+  <meta name="keywords" content="ice-cream, dummy, html, css, javascript">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kem Nhà Làm</title>
+  <link rel="shortcut icon" href="./img/ice-pop-favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/collection.css">
+</head>
+
+<body>
+  <div id="hero">
+    <header>
+      <h1 id="logo"><a href="index.html" class="logo__link"> Kem Nhà Làm </a></h1>
+      <nav>
+        <ul class="nav">
+          <div class="nav__links">
+            <a href="#main-container" class="nav__item ">
+              <li class="nav__item--underline">Cửa Hàng</li>
+            </a>
+            <a href="collection.html" class="nav__item">
+              <li>Bộ Sưu Tập</li>
+            </a>
+            <a href="#contact" class="nav__item">
+              <li>Liên Hệ</li>
+            </a>
+            <a href="login.html" class="nav__item">
+              <li>Đăng Nhập</li>
+            </a>
+          </div>
+          <button href="#" class="nav__item nav__item--cart">
+            <li><i class="fas fa-shopping-cart"></i></li>
+          </button>
+          <div class="burger nav__item">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero-text">
+      <h2 class="hero-text__heading">Kem Nhà Làm</h2><br>
+      <p class="hero-text__tagline">Đặt hàng và chúng tôi sẽ có mặt trước cửa nhà bạn!!</p>
+    </section>
+  </div>
+  
+   
+    <section class="checkout-cart-wrapper">
+      <div class="checkout-cart">
+        <button class="close-cart"><i class="fas fa-times"></i></button>
+        <h6 class="special-flavours__heading">Thanh Toán Giỏ Hàng</h6>
+        <div class="cart-products-wrapper">
+        </div>
+        <div class="buy-wrapper">
+          <p class="cost-wrapper">Tổng: <span id="total-cost">0</span>đ</p><button class="buy-button" ondblclick="alert('Đơn hàng của bạn đã được thanh toán!')"  >Mua</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="company-info">
+      <h5>Kem Nhà Làm</h5>
+      <p class="address">484 Trần Đại Nghĩa, Hòa Hải,<br><br>
+        Ngũ Hành Sơn, Đà Nẵng<br><br>
+        Việt Nam</p>
+       
+      
+    </div>
+    <div class="contact" id="contact">
+      <h5>Liên Hệ</h5>
+      <div class="contact-links">
+        <a href="https://twitter.com/TRNNGCP30319264" title="Twitter" target="_blank"><i class="fab fa-twitter icon"></i></a>
+        <a href="https://github.com/phngtn03061109" title="Github" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a href="https://codepen.io" title="Codepen" target="_blank"><i class="fab fa-codepen"></i></a>
+        <a href="https://www.instagram.com/pnuh__/" title="Instagram" target="_blank"><i
+            class="fab fa-instagram icon"></i></a>
+      </div>
+    </div>
+    
+    <!-- Phone ring -->
+    <div class="hotline-phone-ring-wrap">
+      <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a href="tel:0337646872" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+      </div>
+
+      <div class="hotline-bar-phone">
+        <a href="tel:0337646872">
+          <span class="text-hotline">0337646872</span>
+        </a>
+      </div>
+    </div>
+    <!-- Zaloo ring -->
+    <div class="hotline-zalo-ring-wrap">
+      <div class="hotline-zalo-ring">
+        <div class="hotline-zalo-ring-circle"></div>
+        <div class="hotline-zalo-ring-circle-fill"></div>
+        <div class="hotline-zalo-ring-img-circle">
+        <a href="http://zalo.me/0337646872" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+      </div>
+      <div class="hotline-bar-zalo">
+        <a href="http://zalo.me/0337646872">
+          <span class="text-hotline">Zalo</span>
+        </a>
+      </div>
+    </div>
+    <div class="hotline-facebook-ring-wrap">
+      <div class="hotline-facebook-ring">
+        <div class="hotline-facebook-ring-circle"></div>
+        <div class="hotline-facebook-ring-circle-fill"></div>
+        <div class="hotline-facebook-ring-img-circle">
+        <a href="http://m.me/yeIamok" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Liên hệ Messenger" width="50">
+        </a>
+        </div>
+      </div>
+
+      <div class="hotline-bar-facebook">
+        <a href="http://m.me/yeIamok">
+          <span class="text-hotline">Facebook</span>
+        </a>
+
+      </div>
+    </div><br>
+  </footer>
+  
+
+  <script src="./js/index.js"></script>
+  <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</body>
+
+</html>
