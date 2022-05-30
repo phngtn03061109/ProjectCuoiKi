@@ -34,7 +34,7 @@ function pass_Verify() {
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate() {
-		alert("Registration successfully");
+		alert("Đăng Kí Thành Công");
 		window.open('login.html'); // Redirecting to other page.
 
 }

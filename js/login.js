@@ -37,13 +37,14 @@ function validate() {
 	var email = document.getElementById("email").value;
 	var password = document.getElementById("password").value;
 	if (email == "phungtn" && password == "conginuadau222") {
-		alert("Login successfully");
+		alert("Đăng Nhập Thành Công");
 		window.open('index.html'); // Redirecting to other page.
 		return false;
 	}
 	else {
 		attempt--;// Decrementing by one.
-		alert("You done write fail password;");
+		alert("Bạn đã nhập sai email hoặc mật khẩu;");
+		window.open('login.html');
 		// Disabling fields after 3 attempts.
 		if (attempt == 0) {
 			document.getElementById("email").disabled = true;
