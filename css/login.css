@@ -13,19 +13,19 @@
   --main-background-right-color: #5b42ab;
   --section-width: min(80rem, 80vw);
   --product-details-width: 80%;
-  --yellow: #ccc53e;
-  --dark-yellow: #368097;
-  --pink: #f654ae;
-  --dark-pink: #e6489f;
-  --old-price: #dfdfdf;
-  --light-red: #eb2f64;
+  --yellow: #927e45;
+  --dark-yellow: #5b513c;
+  --pink: #4a6952;
+  --dark-pink: #d35596;
+  --old-price: #642f2f;
+  --light-red: #96295a;
   --white: white;
   --section-heading-font-size: clamp(2.5rem, 2.5vw, 8rem);
   --letter-spacing: 0.04em;
   --border-radius: 10px;
   --add-to-cart-font-size: 1rem;
   --add-to-cart-padding: 0.47em;
-  --footer-background: rgba(142, 22, 22, 0.5);
+  --footer-background: rgba(189, 14, 14, 0.5);
   --nav-item-hover-background: rgba(255, 255, 255, 0.7);
 }
 
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  
+    
   background: linear-gradient(
     to right,
     var(--main-background-right-color),

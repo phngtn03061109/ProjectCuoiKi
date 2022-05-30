@@ -15,6 +15,7 @@
   <title>Login</title>
   <link rel="shortcut icon" href="./img/ice-pop-favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/login.css">
+  <script src="/js/login.js"></script>
 </head>
 
 <body>
@@ -53,15 +54,14 @@
   <main id="main-container">
     <div class="Login_account">
         <h1 class="lable_login">Đăng Nhập</h1>
-    
-        <form class="login_form" action="index.html" method="post" name="form" onsubmit="return validated()">
+        <form class="login_form" action="index.html" method="post" name="form" onsubmit="validateddd()">
             <div class="font">Email</div>
-            <input type="text" name="email" placeholder="Nhập email ">
+            <input type="text" name="email" placeholder="Nhập email" id="email">
             <div id="email_error">please fill up your email or phone</div>
             <div class="font font_2">Mật khẩu</div>
-            <input type="password" name="password" placeholder="Mật khẩu">
+            <input type="password" name="password" placeholder="Mật khẩu" id="password">
             <div id="pass_error">Bạn đã nhập sai email hoặc mật khẩu</div>
-            <button type="submit">Đăng Nhập</button>
+            <button type="submit" id="submit" onclick="validate()">Đăng Nhập</button>
             <div id="register_account"><a href="registration.html">Đăng kí?</a></div><br>
             <div id="forgot_password"><a href="#">Quên mật khẩu?</a></div>
         </form>
@@ -141,8 +141,7 @@
   </footer>
   
 
-  <script src="./js/script.js"></script>
-  <script src="./js/login.css"></script>
+
   <!-- Font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
