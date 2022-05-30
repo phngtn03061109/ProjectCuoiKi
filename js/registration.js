@@ -34,22 +34,7 @@ function pass_Verify() {
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate() {
-	var email = document.getElementById("email").value;
-	var password = document.getElementById("password").value;
-	if (email == "phungtn" && password == "conginuadau222") {
-		alert("Login successfully");
-		window.open('index.html'); // Redirecting to other page.
-		return false;
-	}
-	else {
-		attempt--;// Decrementing by one.
-		alert("You done write fail password;");
-		// Disabling fields after 3 attempts.
-		if (attempt == 0) {
-			document.getElementById("email").disabled = true;
-			document.getElementById("password").disabled = true;
-			document.getElementById("submit").disabled = true;
-			return false;
-		}
-	}
+		alert("Registration successfully");
+		window.open('login.html'); // Redirecting to other page.
+
 }

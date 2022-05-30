@@ -29,6 +29,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./css/login.css" />
+    <script src="./js/registration.js"></script>
   </head>
 
   <body>
@@ -72,10 +73,10 @@
 
         <form
           class="register_form"
-          action="index.html"
+          action="login.html"
           method="post"
           name="form"
-          onsubmit="return validated()"
+          onsubmit="return validate()"
         >
           <div class="font">Họ Và Tên</div>
           <input type="text" name="name" placeholder="Họ và tên" />
@@ -168,7 +169,6 @@
     </footer>
 
     <script src="./js/script.js"></script>
-    <script src="./js/login.css"></script>
     <!-- Font awesome cdn -->
     <link
       rel="stylesheet"
